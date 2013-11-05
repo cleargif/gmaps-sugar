@@ -1,0 +1,27 @@
+{
+  "name": "gmaps-sugar",
+  "version": "0.0.0",
+  "authors": [
+    "David Plews (@cleargif) <freelance@cleargif.co.uk>"
+  ],
+  "description": "A JS Toolbelt for GMaps.js",
+  "main": "main.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/scripts/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "handlebars": "~1.1.0",
+    "jquery": "~2.0.3",
+    "underscore": "~1.5.2"
+  },
+  "devDependencies": {
+    "bootstrap": "~3.0.1"
+  }
+}
