@@ -9,7 +9,7 @@ module.exports = function(grunt) {
         options: {
           port: 9000,
           base: 'app',
-          keepalive:true
+          keepalive: true
         }
       }
     },
@@ -25,9 +25,12 @@ module.exports = function(grunt) {
     },
     // Task to watch changes in files
     watch: {
-      css: {
-        files: ['app/sass/*.scss'],
-        tasks: ['compass']
+      all: {
+        options: {
+          livereload: true
+        },
+        files: ['app/scripts/*.js'],
+        tasks: ['jshint']
       }
     }
 
